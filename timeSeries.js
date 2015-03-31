@@ -57,6 +57,8 @@ for (var i = 0; i < testData.length; i++) {
     };
   }
 
+  console.log(testData[i].content);
+
   nodes += "<div id='.graph'>" + spark({
           mixin: [TimeSeriesTickFitting, Label]
         }).attr({
